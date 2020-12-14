@@ -4,7 +4,7 @@ html {
 }
 
 body{
-	background-image: url("image2.jpg");
+	background-color: white;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover; 
@@ -259,6 +259,22 @@ input[type=submit]:hover {
 
 	
 
+}
+
+
+@media only screen and (max-width: 400px){
+	.aboutme{
+		margin-left: 40%;
+		width: 120%;
+	}
+	.certi{
+		margin-right: 50px;
+	}
+
+	.myname, .tagline{
+		margin-left: 30px;
+		
+	}
 }
 
 
